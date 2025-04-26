@@ -1,1 +1,216 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GameTime Hub</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: red;
+      font-size: 3em;
+      margin-top: 1rem;
+    }
+
+    nav {
+      margin: 1rem 0;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .banner {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    /* Section Styling */
+    section {
+      margin-top: 2rem;
+      text-align: left;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    h3 {
+      color: #444;
+    }
+
+    .content-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+
+    .highlight-video iframe {
+      width: 100%;
+      height: 315px;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .stat-line div {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #555;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Home Page (index.html) -->
+    <h1>GameTime Hub</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#blogs">Blogs</a>
+      <a href="#news">Latest News</a>
+      <a href="#games">Games Tonight</a>
+      <a href="#player">Player of the Night</a>
+    </nav>
+
+    <img src="images/banner.jpg" alt="GameTime Hub Banner" class="banner" />
+
+    <main id="home">
+      <section class="intro">
+        <h2>Welcome to GameTime Hub</h2>
+        <p>GameTime Hub is your front-row seat to the world of sports. From clutch performances to late-breaking trades, we bring you the latest with style and substance. Whether you’re a hardcore stat-head or a casual fan, we’ve got you covered with expert blogs, sharp analysis, and real-time updates.</p>
+      </section>
+
+      <section class="section-preview">
+        <h3>🔥 <a href="#blogs">Blogs</a></h3>
+        <p>Unfiltered, bold, and insightful — our blogs dive deep into team trends, player stories, and fan debates. From MVP races to mid-season slumps, no hot take is off-limits.</p>
+      </section>
+
+      <section class="section-preview">
+        <h3>📰 <a href="#news">Latest News</a></h3>
+        <p>Breaking headlines from the NBA, NFL, MLB, NHL, and MLS — including stats, trades, injuries, and wild finishes. Never miss a beat with our constantly updated news feed.</p>
+      </section>
+
+      <section class="section-preview">
+        <h3>🎮 <a href="#games">Games Tonight</a></h3>
+        <p>See what’s live and what’s worth watching. We preview key matchups, highlight star players, and give you all the details to plan your night around the action.</p>
+      </section>
+
+      <section class="section-preview">
+        <h3>🌟 <a href="#player">Player of the Night</a></h3>
+        <p>Every night has a hero — and we spotlight the one who rose above the rest. See their full stat line, key highlights, postgame quotes, and impact on the season.</p>
+      </section>
+    </main>
+
+    <!-- Blogs Section -->
+    <section id="blogs">
+      <h2>🔥 Blogs</h2>
+      <p>Unfiltered, bold, and insightful. Our blogs dive deep into team trends, player stories, and fan debates. From MVP races to mid-season slumps, no hot take is off-limits.</p>
+
+      <article>
+        <h3>Are the Lakers Back? A Mid-Season Reality Check</h3>
+        <p>By Jordan Banks | April 11, 2025</p>
+        <img src="images/blog.jpg" alt="Lakers Blog" class="content-image" />
+        <p>The Lakers have won 6 of their last 7, and fans are starting to believe again. LeBron looks energized, Davis is healthy, and the supporting cast is finally stepping up...</p>
+      </article>
+    </section>
+
+    <!-- Latest News Section -->
+    <section id="news">
+      <h2>📰 Latest News</h2>
+      <article>
+        <h3>🏀 Curry Drops 45, Warriors Edge Out Celtics</h3>
+        <p>Stephen Curry put on a show last night, scoring 45 points with 8 three-pointers as the Golden State Warriors narrowly defeated the Boston Celtics 112–109...</p>
+      </article>
+
+      <article>
+        <h3>⚾ Shohei Ohtani Hits Grand Slam, Strikes Out 10</h3>
+        <p>Ohtani continues to amaze the baseball world with a historic performance — going 3-for-4 with a grand slam and fanning 10 batters in 7 innings...</p>
+      </article>
+
+      <article>
+        <h3>🏈 Trade Alert: Vikings Acquire Star WR from Raiders</h3>
+        <p>The Minnesota Vikings have pulled off a blockbuster trade, acquiring Pro Bowl wide receiver Davante Adams from the Las Vegas Raiders...</p>
+      </article>
+    </section>
+
+    <!-- Games Tonight Section -->
+    <section id="games">
+      <h2>🎮 Games Tonight</h2>
+      <ul>
+        <li>🏀 Warriors vs Suns – 8:00 PM ET</li>
+        <li>⚾ Rangers vs Astros – 7:30 PM ET</li>
+        <li>🏀 Knicks vs Nets – 9:00 PM ET</li>
+      </ul>
+    </section>
+
+    <!-- Player of the Night Section -->
+    <section id="player">
+      <h2>🌟 Player of the Night</h2>
+      <h3>Giannis Antetokounmpo: A Night of Total Domination</h3>
+      <p><strong>Date:</strong> April 10, 2025<br><strong>Opponent:</strong> Miami Heat</p>
+      <div class="stat-line">
+        <div><strong>Points:</strong> 38</div>
+        <div><strong>Rebounds:</strong> 14</div>
+        <div><strong>Assists:</strong> 5</div>
+        <div><strong>FG:</strong> 16/22</div>
+        <div><strong>Blocks:</strong> 2</div>
+      </div>
+
+      <p>Giannis delivered a performance for the ages, bullying defenders in the paint, finishing with authority, and running the floor like a point guard...</p>
+
+      <div class="highlight-video">
+        <iframe src="https://www.youtube.com/embed/example" title="Giannis Highlights vs Heat" allowfullscreen></iframe>
+      </div>
+
+      <p class="quote">“I just play hard and let the game come to me. When I’m locked in, I feel like nobody can stop me,” Giannis said postgame.</p>
+    </section>
+
+    <footer>
+      <p>© 2025 GameTime Hub | Your source for everything sports.</p>
+    </footer>
+  </div>
+</body>
+</html>

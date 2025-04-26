@@ -4,6 +4,46 @@
   <meta charset="UTF-8" />
   <title>GameTime Hub | Player of the Night</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .star-section {
+      background-color: #fffbe0;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+
+    .stat-line {
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.1em;
+      margin: 1rem 0;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #555;
+      margin-top: 1.5rem;
+    }
+
+    .impact {
+      background-color: #f2f2f2;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    .highlight-video {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .highlight-video iframe {
+      width: 90%;
+      max-width: 700px;
+      height: 400px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -14,19 +54,45 @@
       <a href="news.html">Latest News</a>
       <a href="games.html">Games Tonight</a>
     </nav>
+
     <main>
-      <section>
-        <h2>🌟 Player of the Night</h2>
-        <img src="images/player.jpg" alt="Star Player" class="content-image" />
-        <article>
-          <h3>Giannis Antetokounmpo: A Night of Total Domination</h3>
-          <p>Giannis dropped 38 points, 14 rebounds, and 5 assists with ruthless efficiency against the Heat. A two-way force that electrified both ends of the court.</p>
-        </article>
+      <h2>🌟 Player of the Night</h2>
+
+      <section class="star-section">
+        <h3>Giannis Antetokounmpo: A Night of Total Domination</h3>
+        <p><strong>Date:</strong> April 10, 2025<br><strong>Opponent:</strong> Miami Heat</p>
+
+        <div class="stat-line">
+          <div><strong>Points:</strong> 38</div>
+          <div><strong>Rebounds:</strong> 14</div>
+          <div><strong>Assists:</strong> 5</div>
+          <div><strong>FG:</strong> 16/22</div>
+          <div><strong>Blocks:</strong> 2</div>
+        </div>
+
+        <p>Giannis delivered a performance for the ages, bullying defenders in the paint, finishing with authority, and running the floor like a point guard. His energy was relentless. On defense, he anchored the Bucks with rim protection and rebounding, completely shutting down Miami’s inside game.</p>
+
+        <div class="highlight-video">
+          <h4>🎥 Watch the Highlights</h4>
+          <iframe src="https://www.youtube.com/embed/example" title="Giannis Highlights vs Heat" allowfullscreen></iframe>
+          <!-- Replace 'example' with real video ID if desired -->
+        </div>
+
+        <p class="quote">“I just play hard and let the game come to me. When I’m locked in, I feel like nobody can stop me,” Giannis said postgame.</p>
+      </section>
+
+      <section class="impact">
+        <h3>📊 What It Means</h3>
+        <p>With this dominant performance, Giannis boosts his MVP campaign and pushes the Bucks up to 2nd in the East. He now averages 31.2 PPG, 11.7 RPG, and 5.4 APG this season, and is in a neck-and-neck race with Jokic and Tatum for the league’s top individual honor.</p>
+
+        <p>His leadership has also helped elevate young teammates like MarJon Beauchamp and AJ Green, as Milwaukee eyes another deep playoff run. If he keeps this up, the Greek Freak could be holding his 3rd MVP trophy come June.</p>
       </section>
     </main>
+
     <footer>
-      <p>© 2025 GameTime Hub</p>
+      <p>© 2025 GameTime Hub | Your source for everything sports.</p>
     </footer>
   </div>
 </body>
 </html>
+
